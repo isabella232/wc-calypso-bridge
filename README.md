@@ -30,7 +30,7 @@ Note that the plugin expects to find these plugins in their original folders, so
 #### Jetpack Connection && Option Values
 You will need either a connected Jetpack site or use the following filter to force Jetpack into development mode:
 
-`add_filter( 'jetpack_development_mode', '__return_true' );`
+`add_filter( 'jetpack_offline_mode', '__return_true' );`
 
 To make the bridge work, the site must have the ecommerce plan option set under the `at_options` option:
 
